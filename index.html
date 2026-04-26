@@ -1,0 +1,268 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lalita Palace & Banquet Hall</title>
+
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+</head>
+
+<body>
+
+    <!-- Loader -->
+    <div id="loader">
+        <div class="loader-content">
+            <h1>Welcome To Lalita Palace</h1>
+            <div class="loader-line"></div>
+        </div>
+    </div>
+
+    <!-- Navbar -->
+    <header>
+        <nav class="navbar">
+            <div class="logo">
+                <img src="logo.jpeg" alt="Logo">
+                <div class="logo-text">
+                    <h2>Lalita Palace</h2>
+                    <span>Banquet Hall</span>
+                </div>
+            </div>
+
+            <ul class="nav-links">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#services">Service</a></li>
+                <li><a href="#rooms">Rooms</a></li>
+                <li><a href="#restaurant">Food</a></li>
+                <li><a href="#gallery">Gallery</a></li>
+                <li><a href="#reviews">Review</a></li>
+                <li><a href="#faq">FAQ</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+
+            <div class="nav-icons">
+                <button id="langBtn" class="lang-btn">हिंदी</button>
+                <i class="fa fa-moon" id="themeBtn"></i>
+                <i class="fa fa-bars menu-btn"></i>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Hero -->
+    <section class="hero" id="home">
+        <video autoplay muted loop playsinline>
+            <source src="video/hotel.mp4" type="video/mp4">
+        </video>
+        <div class="hero-content">
+            <h1>Luxury Stay & Grand Celebration</h1>
+            <p>Experience Royal Hospitality & Premium Service</p>
+            <a href="https://wa.me/917367853826" class="btn">Book on WhatsApp</a>
+        </div>
+    </section>
+
+    <!-- About -->
+    <section id="about" class="about">
+        <h2>About Lalita Palace</h2>
+        <div class="about-box">
+            <div class="about-text">
+                <p>
+                    Lalita Palace & Banquet Hall is one of the most luxurious places for weddings,
+                    birthdays, family functions, business meetings and premium stays.
+                </p>
+            </div>
+            <div class="about-img">
+                <img src="1.png" alt="Lalita Palace">
+            </div>
+        </div>
+    </section>
+
+    <!-- Services -->
+    <section id="services" class="services">
+        <h2>Our Services</h2>
+        <div class="service-box">
+            <div class="service-card"><i class="fa fa-bed"></i>
+                <h3>Luxury Rooms</h3>
+            </div>
+            <div class="service-card"><i class="fa fa-cake-candles"></i>
+                <h3>Birthday Party</h3>
+            </div>
+            <div class="service-card"><i class="fa fa-heart"></i>
+                <h3>Wedding Hall</h3>
+            </div>
+            <div class="service-card"><i class="fa fa-utensils"></i>
+                <h3>Restaurant</h3>
+            </div>
+            <div class="service-card"><i class="fa fa-car"></i>
+                <h3>Parking</h3>
+            </div>
+
+        </div>
+    </section>
+
+    <!-- Rooms -->
+    <section id="rooms" class="rooms">
+        <h2>Luxury Rooms</h2>
+        <div class="room-box">
+            <div class="room-card"><img src="10.png">
+                <h3>Deluxe Room</h3>
+            </div>
+            <div class="room-card"><img src="15.png">
+                <h3>Royal Suite</h3>
+            </div>
+            <div class="room-card"><img src="11.jpg">
+                <h3>Family Room</h3>
+            </div>
+        </div>
+    </section>
+
+    <!-- Booking -->
+    <section class="booking" id="booking">
+        <h2>Book Your Stay</h2>
+        <form>
+            <input type="text" placeholder="Your Name">
+            <input type="date">
+            <input type="date">
+            <select>
+                <option>Guests</option>
+                <option>1 Guest</option>
+                <option>2 Guests</option>
+                <option>3 Guests</option>
+            </select>
+            <<a href="https://wa.me/917367853826?text=Hello%20Lalita%20Palace,%20I%20want%20to%20book%20a%20room%20or%20hall."
+                target="_blank" class="btn">
+                Book Now
+                </a>
+        </form>
+        <br>
+
+    </section>
+
+    <!-- Restaurant -->
+    <section id="restaurant" class="restaurant">
+        <h2>Our Restaurant</h2>
+        <div class="room-box">
+            <div class="room-card"><img src="3.jpeg">
+                <h3>Restaurant</h3>
+            </div>
+            <div class="room-card"><img src="6.jpeg">
+                <h3>Dining Area</h3>
+            </div>
+            <div class="room-card"><img src="7.png">
+                <h3>Reception</h3>
+            </div>
+        </div>
+    </section>
+
+    <!-- Wedding -->
+    <section class="rooms">
+        <h2>Wedding Area</h2>
+        <div class="room-box">
+            <div class="room-card"><img src="10.png">
+                <h3>Banquet Hall</h3>
+            </div>
+            <div class="room-card"><img src="8.png">
+                <h3>Jaimala Stage</h3>
+            </div>
+            <div class="room-card"><img src="5.jpeg">
+                <h3>Shadi Mandap</h3>
+            </div>
+        </div>
+    </section>
+
+    <!-- Gallery -->
+    <section id="gallery" class="gallery">
+        <h2>Gallery</h2>
+        <div class="gallery-box">
+            <img src="4.jpeg">
+            <img src="13.png">
+            <img src="12.png">
+            <img src="14.png">
+        </div>
+    </section>
+
+    <!-- Reviews -->
+    <section id="reviews" class="reviews">
+        <h2>Customer Review</h2>
+        <div class="swiper-slide review-card">
+            <h3>Manish Singh ⭐⭐⭐⭐⭐</h3>
+            <p>All services are very good and parking is excellent.</p>
+        </div>
+        <div class="swiper-slide review-card">
+            <h3>Prashant Tiwary ⭐⭐⭐⭐⭐</h3>
+            <p>Perfect for any event and ceremony.</p>
+        </div>
+    </section>
+
+    <!-- FAQ -->
+    <section id="faq" class="faq">
+        <h2>FAQ</h2>
+        <div class="faq-item">
+            <h3>Parking Available?</h3>
+            <p>Yes available.</p>
+        </div>
+        <div class="faq-item">
+            <h3>Online Booking?</h3>
+            <p>Yes available.</p>
+        </div>
+        <div class="faq-item">
+            <h3>Veg Restaurant?</h3>
+            <p>Yes Pure Veg Restaurant.</p>
+        </div>
+    </section>
+
+    <!-- Map -->
+    <section class="map">
+        <h2>Find Us On Map</h2>
+        <iframe src="https://www.google.com/maps?q=Lalita%20palace%20and%20banquet%20hall%20Dehri&output=embed"
+            width="100%" height="400"></iframe>
+    </section>
+
+    <!-- Contact -->
+    <section id="contact" class="contact">
+        <h2>Contact Us</h2>
+        <p>📞 +91 7367852826</p>
+        <p>📲 WhatsApp: +91 7367853826</p>
+        <p>📍 Near BMP-2, Dehri-Tilouthu Road, Bastipur, Dehri, Bihar 821307</p>
+    </section>
+
+    <!-- WhatsApp -->
+    <a href="https://wa.me/917367853826" class="whatsapp-btn">
+        <i class="fab fa-whatsapp"></i>
+    </a>
+
+    <!-- Call -->
+    <a href="tel:+917367852826" class="call-btn">
+        <i class="fa fa-phone"></i>
+    </a>
+
+    <!-- Chatbot -->
+    <div class="chat-toggle" id="chatToggle">
+        <i class="fas fa-robot"></i>
+    </div>
+
+    <div class="chatbot" id="chatbot">
+        <div class="chat-header">
+            <i class="fas fa-robot"></i> AI Assistant
+            <span id="closeChat">✖</span>
+        </div>
+        <div class="chat-body" id="chatBody">
+            <p class="bot-msg">Hello 👋 Welcome to Lalita Palace!</p>
+        </div>
+        <div class="chat-footer">
+            <input type="text" id="chatInput" placeholder="Type message...">
+            <button id="sendBtn">➤</button>
+        </div>
+    </div>
+
+    <footer>
+        <p>© 2026 Lalita Palace & Banquet Hall | All Rights Reserved</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
